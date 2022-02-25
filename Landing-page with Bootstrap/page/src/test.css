@@ -1,0 +1,81 @@
+/*Значения для контейнера с кнопкой Waxon WorldPress Theme*/
+.container-fluid-hunt{background-color: #392820; height: 150px;}
+.World{ color: #c7b299; font-size: 180%;}
+.Press{ color: #ffffff; }
+p.Wax{color: #615855; font-size: 140%;}
+/*Значения для кнопок*/
+#All{ width: 70px; background-color: white; border-color: #615855; color: #615855;}
+#Other{ background-color: white; border-color: #615855; color: #615855;}
+div.container-fluid-hunt button{background-color: #998675; border: none; color: #ffffff;height: 45px;}
+.bt{background-color: #998675; border: none; color: #ffffff;height: 45px; width: 150px;}
+div.carousel-caption button{ background-color: #998675; border: none; color: #ffffff;width: 180px;}
+/* Все ховеры и анимации,прозрачность и тени*/
+#All:hover{ color: white;background-color: #615855;}
+#Other:hover{ color: white;background-color: #615855;}
+.card:hover{ background-color: #615855;}
+.card-body:hover{ color: white;}
+div.card:hover .card-text{
+      color:white;
+  }
+  div.card:hover .card-text {
+        color:white;
+  }
+  div.card:hover .card-text{
+        color: #c7b299;
+  }
+  div.card:hover .card-text {
+        color:#c7b299;
+  }
+  div.card:hover .card-body {
+        background-color: #362f2d;
+  }
+  div.card img {
+        -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+  div.card:hover img{
+     -webkit-filter: opacity(75%);  
+  }
+  div.carousel-caption-2 a:hover{ color: #c7b299;}
+  .web:hover{color: #c7b299;}
+  
+/* Титульная страница(карусель): меню,логотип, текст по середине*/
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+     transform: translateY(-10%);
+     font-size: small;  
+}
+.carousel-caption-2{ position: absolute;
+                     top: 5%;
+                     margin-left: 450px;}
+#Logo{position: absolute;
+      margin-left: -35%;
+      margin-top: -10px;}
+
+.nav{ color: white;
+      }
+/* Значения для паддинга и значения для нижнего подчеркивания*/
+.padding{ padding-bottom: 1em;
+          padding-top: 1em;}
+hr{ height: 2px; width: 70px; border: none;}
+hr.h{ width: 320px;}
+div.carousel-caption-2 a{ color:#ffffff; }
+/*Фоны для дивов*/
+.dark div{background-color: #111111;}
+.Lol div {background-color: #191919; color: #ffffff;}
+.just{ padding-top: 1px;}
+/*Цвет для линков и текста*/
+.dark a {color: #959595;}
+.dark p {color: #959595;}
+ div a{color:#c7b299; border: none; }
+
+/* Медиа запросы*/
+@media (min-width:320px) and (max-width:480px){
+      h1.World{ font-size: 90%}
+      span.Press{font-size: 90%}
+      p.Wax{font-size: 40%}    
+}
